@@ -20,16 +20,16 @@ Built with **Streamlit**, **NewsAPI**, and **Hugging Face Transformers**.
 - **Language**: Python  
 - **Framework**: Streamlit  
 - **News API**: [NewsAPI.org](https://newsapi.org)  
-- **Summarization Models**: Hugging Face Transformers (BART / T5)  
+- **Summarization Models**: Hugging Face Transformers (BART)  
 - **Libraries**: `requests`, `newspaper3k`, `beautifulsoup4`, `transformers`, `torch`  
-- **Deployment**: Streamlit Cloud / Docker  
+- **Deployment**: Streamlit Cloud
 
 ---
 
 ## 📂 Project Structure
 
 daily-news-summarizer/
-├── app.py # Main Streamlit app (UI + flow)
+├── app.py 
 
 ├── news_fetcher.py # Fetch news from NewsAPI
 
@@ -57,9 +57,18 @@ pip install -r requirements.txt
 
 streamlit run app.py
 ```
-# 📸 Demo Screenshot
+## 📸 Demo Screenshot
 
-<img width="1706" height="706" alt="Screenshot 2025-10-02 215756" src="https://github.com/user-attachments/assets/831a310d-fc25-4f0b-8ac8-4fcc6d7e5cf3" />
+## <img width="1706" height="706" alt="Screenshot 2025-10-02 215756" src="https://github.com/user-attachments/assets/831a310d-fc25-4f0b-8ac8-4fcc6d7e5cf3" />
+
+## <img width="1818" height="753" alt="image" src="https://github.com/user-attachments/assets/3091ade3-4f22-4b36-9469-676f28d8bf3a" />
+
+## Further Improvements
+
+- Multiple Language Support
+- Location based sews artical search and summarization
+- Sentiment Analysis, Show whether the news is Positive / Negative / Neutral
+   etc....
 
 
 
