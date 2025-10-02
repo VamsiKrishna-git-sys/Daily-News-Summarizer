@@ -66,7 +66,7 @@ streamlit run app.py
 ## Further Improvements
 
 - Multiple Language Support
-- Location based sews artical search and summarization
+- Location based news artical search and summarization 
 - Sentiment Analysis, Show whether the news is Positive / Negative / Neutral
    etc....
 
